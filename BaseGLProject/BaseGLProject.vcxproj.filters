@@ -41,6 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="glew32.dll" />
-    <CopyFileToFolders Include="glfw3.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glfw3.dll">
+      <Filter>Archivos de origen</Filter>
+    </None>
   </ItemGroup>
 </Project>
